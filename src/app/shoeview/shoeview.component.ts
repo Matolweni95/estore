@@ -16,6 +16,7 @@ export class ShoeviewComponent implements OnInit {
 
   openDeliver() {
     this.dialog.open(DeliveryComponent);
+    
   }
 
   openExchange() {
