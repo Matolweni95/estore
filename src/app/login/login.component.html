@@ -1,0 +1,106 @@
+<!-- <app-header></app-header> -->
+
+<div class="container">
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <div class="form">
+                <form action="#">
+                    <div class="login">
+                        <h2 class="text-center">Sign Up</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                        </div>
+                        <div class="col-md-16 col-md-offset-5">
+                            <div class="jumbotron">
+                            <form  autocomplete="off" >
+                                <div class="form-group">
+                                    <input type="text" name="name"  autocomplete="off" class="form-control " placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="surname"  autocomplete="off" class="form-control " placeholder="Surname">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email"  autocomplete="off" class="form-control " placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="password"  autocomplete="off" class="form-control " placeholder="Password">
+                                </div>
+                                <br>
+                            <button type="submit"  class="btn btn-success" >Proceed</button>
+                            
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+            
+                    
+                </form>
+            </div>
+        </div>
+        
+        <div class="form-container sign-in-container">
+            <button [routerLink]="['/']" class="back"><mat-icon class="cart-icons">arrow_back</mat-icon></button>
+            <form action="#">
+                <div class="login">
+                    <h2 class="text-center">Login</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                    </div>
+                    <div class="col-md-16 col-md-offset-5">
+                        <div class="jumbotron">
+                        <form  autocomplete="off" >
+                            <div class="form-group">
+                                <input type="email" name="email"  autocomplete="off" class="form-control " placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="Password"  autocomplete="off" class="form-control " placeholder="Password">
+                            </div><br>
+                        <!-- <button type="submit"  class="btn btn-success" >Login</button> -->
+                        <button [routerLink]="" class="btn btn-success" >Login</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+                </div>
+        
+                
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <div class="cont">
+                        <figure>
+                            <img class="avatar" src="assets/jeff-tumale-SD9Jyl1xNQ4-unsplash.jpg">
+                            <figcaption>
+                                <h1>Welcome back!</h1>
+                                <button class="sign" id="signIn" onclick="test()">Sign In</button>
+                            </figcaption>
+                        </figure>
+                        
+                    <button id="dummy"></button>
+                    </div>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <div class="cont">
+                        <figure>
+                            <img class="avatar" src="assets/irene-kredenets-dwKiHoqqxk8-unsplash.jpg">
+                            <figcaption>
+                                <h1>Hello, Friend!</h1>
+                                <div class="btnAdjust">
+                                    <button class="sign" id="signUp" onclick="test()" >Sign Up</button>
+                                </div>
+                            </figcaption>
+                            <p></p>
+                        </figure>  
+                        <div class="adjust">
+                            <button id="dummys" ></button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

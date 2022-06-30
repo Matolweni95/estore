@@ -1,0 +1,62 @@
+.content {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container {
+    flex-direction: row;
+    columns: 3;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+
+mat-card {
+    position: relative;
+    width: 290px;
+    margin-bottom: 18px;
+}
+
+mat-card-title {
+    font-size: 20px;
+    padding: 9px 0px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addbtn {
+   
+}
+
+.price {
+    position: relative;
+    font-size: 28px;
+    top: 14px;
+}
+
+.placeholder {
+    width: 290px;
+    height: 220px;
+    
+}
+
+.mat-card .mat-divider-horizontal {
+    width: 80%;
+    position: relative;
+    left: 5px;
+    margin: 0px 20px;
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 0%;
+    background-color: #1976d2;
+    color: white;
+}
