@@ -1,0 +1,104 @@
+.flex-container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    width: 850px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub {
+    width: 300px;
+    height: 150px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.summary-sub {
+    height: 135px;
+}
+
+.summary-header {
+    text-align: center;
+
+}
+
+.pay {
+    color: white;
+    position: relative;
+    top: -1px;
+}
+
+.sub-total {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-cont {
+    display: flex;
+    gap: 20px;
+}
+
+.sub-text {
+    font-size: 16px;
+}
+
+.view-btn {
+    width: 100%;
+    background-color: #1c8644;
+    color: white;
+}
+
+.preview {
+    width: 138px;
+    height: 110px;
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 13px;
+    margin-top: 9px;
+    color: #9b9b9b;
+}
+
+mat-icon {
+    color: #9b9b9b;
+    position: relative;
+    top: 6px;
+}
+
+mat-form-field {
+    width: 65px;
+    height: 20px;
+    
+}
+
+.operations {
+    font-size: 30px;
+}
+
+button {
+    position: relative;
+    padding: 6px;
+    bottom: 1px;
+}
+
+h1 {
+    color: #4d4d4f;
+}
+
+h3, h4 {
+    text-align: center;
+    line-height: 10px;
+    color: #9b9b9b;
+}
+

@@ -1,11 +1,11 @@
 <app-header></app-header>
-<body>
+<div class="main-container">
 <div class="container">
     <div class="flex-container">
         <div class="main-holder">
             <mat-card class="main">
                 <div class="img-container">
-                    <img class="preview" src="/assets/JORDAN.jpg">
+                    <img class="preview" src="/assets/jordan.jpg">
                 </div>
                 <div class="contents">
                     <div class="title">
@@ -15,7 +15,7 @@
                     </div>
   
                     <div class="stock-line">
-                        <span class="stock">In Stock</span> <span class="location">JHB/CPT</span><span><a href="#">Where do i get it?</a></span>
+                        <span class="stock">In Stock</span> <span class="location">JHB/CPT</span><span><a (click)="openWhere()">Where do i get it?</a></span>
                     </div>
                     
                     <div class="size-section">
@@ -32,10 +32,14 @@
 
                     <div class="more-info">
                         <ul>
-                            <li>Eligible for next-day delivery or collection.</li>
-                            <li>Eligible for Cash on Delivery.</li>
+                            <div class="cont">
+                                <li>Eligible for Cash on Delivery</li> <button (click)="openDeliver()" class="info">i</button>
+                            </div>                         
                             <li>Free Delivery Available.</li>
-                            <li>Hassle-Free Exchanges & Returns for 30 Days.</li>
+                            <div class="cont">
+                                <li>Hassle-Free Exchanges & Returns for 30 Days</li> <button (click)="openExchange()" class="info">i</button>
+                            </div> 
+                            <li>Free Delivery Available.</li>
                             <li>6-Month Limited Warranty.</li>
                         </ul>
                     </div>
@@ -44,7 +48,7 @@
         </div>
         <div class="cart-adder">
             <mat-card class="sub">
-                <h1>R 3 500</h1>
+                <h1>R 1 500</h1>
                 <p>FREE DELIVERY</p>
                 <div class="cart-btn">
                     <button class= "view-btn" mat-raised-button><mat-icon class="cart-icons">arrow_forward</mat-icon>VIEW CART</button>
@@ -53,4 +57,24 @@
             </mat-card>
         </div>
     </div>
+    
+</div>
+
+<div class="description">
+    <mat-card class="desc-card">
+        <div class="desc-cont">
+        <h1>Description</h1>
+        <p>Jordan Brand adds a psychedelic twist to a classic silhouette with the Jordan 1 Retro High Tie Dye, now available at Welle Official 
+            This release is a women's exclusive, similar to the Jordan 1 Shattered Backboard and Jordan 1 Satin Black Toe.
+        </p>
+        <p>
+            The Jordan 1 Retro Tie Dye consists of a white and black upper with blue and green tie-dye print leather overlays. A black Swoosh, 
+            white midsole, and black outsole complete the design. This Jordan 1 Tyee Dye release in June of 2020
+        </p>
+
+        </div>
+        
+    </mat-card>
+</div>
+
 </div>
