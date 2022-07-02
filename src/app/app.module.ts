@@ -21,7 +21,8 @@ import { ShoeviewComponent } from './shoeview/shoeview.component';
 import { MatIconModule} from '@angular/material/icon';
 import { AccountviewComponent } from './accountview/accountview.component';
 import { DeliveryComponent } from './delivery/delivery.component';
-import { ExchangeComponent } from './refund/exchange/exchange.component'; 
+import { ExchangeComponent } from './refund/exchange/exchange.component';
+import { WheretogetComponent } from './wheretoget/wheretoget.component'; 
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ExchangeComponent } from './refund/exchange/exchange.component';
     ShoeviewComponent,
     AccountviewComponent,
     DeliveryComponent,
-    ExchangeComponent
+    ExchangeComponent,
+    WheretogetComponent
   ],
   imports: [
     BrowserModule,

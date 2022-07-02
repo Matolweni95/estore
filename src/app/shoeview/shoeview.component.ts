@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DeliveryComponent } from '../delivery/delivery.component';
 import { ExchangeComponent } from '../refund/exchange/exchange.component'; 
+import { WheretogetComponent } from '../wheretoget/wheretoget.component'; 
 @Component({
   selector: 'app-shoeview',
   templateUrl: './shoeview.component.html',
@@ -22,5 +23,10 @@ export class ShoeviewComponent implements OnInit {
   openExchange() {
     this.dialog.open(ExchangeComponent);
   }
+
+  openWhere() {
+    this.dialog.open(WheretogetComponent);
+  }
+
 
 }

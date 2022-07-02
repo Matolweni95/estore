@@ -18,7 +18,9 @@
 mat-card {
     position: relative;
     width: 290px;
+    height: 310px;
     margin-bottom: 18px;
+    padding-bottom: 50px;
 }
 
 mat-card-title {
@@ -59,4 +61,56 @@ button {
     border-radius: 0%;
     background-color: #1976d2;
     color: white;
+}
+
+/* preview adjustments */
+
+.adjust-red {
+    height: 182px;
+    position: relative;  
+}
+
+.red-title {
+    position: relative;
+    top: 14px;
+    padding-bottom: 31px;
+}
+
+.adjust-tie {
+    height: 190px;
+    bottom: 8px;
+    position: relative;  
+}
+
+.tie-title  {
+    position: relative;
+    top: 10px;
+    padding-bottom: 27px;  
+}
+
+.adjust-grey {
+    height: 185px;
+    position: relative;  
+}
+
+.adjust-multi {
+    height: 190px;
+    position: relative;  
+}
+
+.multi-title {
+    position: relative;
+    top: 42px;
+    padding-bottom: 59px;
+}
+
+.adjust-brother {
+    height: 215px;
+    width: 285px;
+}
+
+.brother-title {
+    position: relative;
+    top: 5px;
+    padding-bottom: 13px;
 }

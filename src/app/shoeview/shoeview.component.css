@@ -1,9 +1,11 @@
-body {
+.main-container {
     background-color: rgba(230, 245, 248, 0.911);
 }
 .container {
     display: flex;
     justify-content: center;
+
+    
 }
 .flex-container {
     margin-top: 5%;
@@ -13,7 +15,7 @@ body {
 
 .main {
     width: 800px;
-    height: 500px;
+    height: 530px;
     display: flex;
     justify-content: space-around;
 }
@@ -24,8 +26,8 @@ body {
 }
 
 .preview {
-    width: 350px;
-    height: 350px;
+    width: 420px;
+    height: 320px;
 }
 
 .stock-line {
@@ -45,9 +47,9 @@ span {
 }
 
 .location {
-    background-color: #4d4d4f;
+    background-color: #eaeaea;
     font-size: 11px;
-    color: white;
+    color: black;
     border-radius: 5px;
     padding: 5px;
 }
@@ -112,4 +114,35 @@ li {
     margin-right: 5px;
 }
 
+.cont {
+    display: flex;
+}
 
+.info {
+    background-color: #1c8644;
+    position: relative;
+    margin-left: 9px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 9px;
+    width: 12px;
+}
+
+.description {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.desc-card {
+    width: 800px;
+    height: 200px;
+    margin-bottom: 25px;
+    position: relative;
+    right: 180px;
+}
+
+.desc-cont {
+    width: 650px;
+}
