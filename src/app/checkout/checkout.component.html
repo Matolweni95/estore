@@ -1,1 +1,61 @@
-<p>checkout works!</p>
+<app-header></app-header>
+<body>
+    <div class="container">
+        <div class="flex-container">
+            <div class="address">
+                <mat-card>
+                    <h2>Personal Information</h2>
+                    <div class="card-container">
+                        <mat-form-field appearance="fill">
+                            <mat-label>Full Name</mat-label>
+                            <input matInput>
+                          </mat-form-field> 
+                          <mat-form-field appearance="fill">
+                            <mat-label>Email</mat-label>
+                            <input matInput>
+                          </mat-form-field> 
+                    </div> 
+                    
+                    <h2>Shipping Information</h2>
+                    <section class="example-section" [formGroup]="shipping"> 
+                        <p><mat-checkbox (click)="toggleShow()"formControlName="address">Use default address</mat-checkbox></p>
+                    </section>
+                    <div *ngIf = "!isShown" class="ship-container">
+                        <mat-form-field appearance="fill">
+                            <mat-label>Province</mat-label>
+                            <input matInput>
+                          </mat-form-field> 
+                          <mat-form-field appearance="fill">
+                            <mat-label>City</mat-label>
+                            <input matInput>
+                          </mat-form-field> 
+                          <mat-form-field appearance="fill">
+                            <mat-label>Surburb</mat-label>
+                            <input matInput>
+                          </mat-form-field>
+                          <mat-form-field appearance="fill">
+                            <mat-label>Postal Code</mat-label>
+                            <input matInput>
+                          </mat-form-field>
+                    </div>
+                    <button class="pay" mat-raised-button>Make Payment</button>
+                </mat-card>
+            </div>
+            <div class="payment">
+                <mat-card>
+                    <div class="btn-section">
+                        <button [routerLink]="['/ShoppingCart']" class= "back" mat-raised-button><mat-icon class="back-icons">arrow_back</mat-icon></button>
+                    </div>
+                    <h1>Order Summary</h1>
+                    <div class="summary-section">
+
+                    </div>
+                    <div class="pricing">
+                        <p>Items: </p>
+                        <p>Price: R</p>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</body>

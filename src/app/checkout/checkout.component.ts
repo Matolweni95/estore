@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {FormBuilder} from '@angular/forms';
 @Component({
   selector: 'app-checkout',
   templateUrl: './checkout.component.html',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CheckoutComponent implements OnInit {
 
-  constructor() { }
+  isShown = false;
+
+  shipping = this._formBuilder.group({
+    address: false, 
+  });
+  constructor(private _formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
+  }
+
+  toggleShow(){
+    this.isShown = !this.isShown;
   }
 
 }

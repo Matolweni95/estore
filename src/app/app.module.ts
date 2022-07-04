@@ -11,6 +11,7 @@ import { CartComponent } from './cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HomeComponent } from './home/home.component';
 import { MatButtonModule } from '@angular/material/button'; 
+import { MatCheckboxModule } from '@angular/material/checkbox'; 
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input'; 
 import { MatDialogModule } from '@angular/material/dialog'; 
@@ -51,7 +52,8 @@ import { WheretogetComponent } from './wheretoget/wheretoget.component';
     MatDialogModule,
     MatFormFieldModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

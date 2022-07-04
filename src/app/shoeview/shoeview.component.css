@@ -1,5 +1,5 @@
 .main-container {
-    background-color: rgba(230, 245, 248, 0.911);
+   
 }
 .container {
     display: flex;
@@ -7,6 +7,23 @@
 
     
 }
+
+.back {
+    position: relative;
+    margin-left: 89px;
+    top: 35px;
+    width: 150px;
+    border-style:double;
+    border-color: #1976d2;
+}
+
+.back-icons {
+    position: relative;
+    top: -1px;
+    color: #1976d2;
+    
+}
+
 .flex-container {
     margin-top: 5%;
     display: flex;

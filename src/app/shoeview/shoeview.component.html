@@ -1,8 +1,10 @@
 <app-header></app-header>
 <div class="main-container">
+    <button [routerLink]="['/']" class= "back" mat-raised-button><mat-icon class="back-icons">arrow_back</mat-icon></button>
 <div class="container">
     <div class="flex-container">
         <div class="main-holder">
+           
             <mat-card class="main">
                 <div class="img-container">
                     <img class="preview" src="/assets/jordan.jpg">
@@ -51,7 +53,7 @@
                 <h1>R 1 500</h1>
                 <p>FREE DELIVERY</p>
                 <div class="cart-btn">
-                    <button class= "view-btn" mat-raised-button><mat-icon class="cart-icons">arrow_forward</mat-icon>VIEW CART</button>
+                    <button [routerLink]="['/ShoppingCart']" class= "view-btn" mat-raised-button><mat-icon class="cart-icons">arrow_forward</mat-icon>VIEW CART</button>
                     <button class= "add-btn" mat-raised-button><mat-icon class="cart-icons">add_shopping_cart</mat-icon>ADD TO CART</button>
                 </div>
             </mat-card>
