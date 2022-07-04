@@ -1,0 +1,45 @@
+
+.flex-container {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address {
+    width: 450px;
+}
+
+.payment {
+    width: 450px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ship-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay {
+    background-color: #1c8644;
+    color: white;
+    width: 100%;
+}
+
+.btn-section {
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 25px;
+}
+
+h1 {
+  padding-top: 15px;
+}
+
+.summary-section {
+    border-top: 1px solid #dadada;
+    
+ 
+}

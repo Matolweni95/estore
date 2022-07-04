@@ -4,6 +4,22 @@
     justify-content: space-evenly;
 }
 
+.back {
+    position: relative;
+    margin-left: 51px;
+    top: 25px;
+    width: 150px;
+    border-style:double;
+    border-color: #1976d2;
+}
+
+.back-icons {
+    position: relative;
+    top: -1px;
+    color: #1976d2;
+    
+}
+
 .main {
     width: 850px;
     height: 150px;
